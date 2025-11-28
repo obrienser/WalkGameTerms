@@ -86,6 +86,33 @@ body {
     margin-top: 1.5rem;
 }
 
+/* Small-screen tweaks */
+@media (max-width: 576px) {
+    body {
+        padding: 1.5rem 0.75rem;
+    }
+
+    .privacy-card {
+        padding: 1.5rem 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+    }
+
+    .privacy-card h2 {
+        font-size: 1.15rem;
+    }
+
+    .privacy-card h3 {
+        font-size: 1rem;
+    }
+
+    .privacy-card p,
+    .privacy-card li {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
 /* Main title */
 h1 {
     font-size: calc(1.6rem + 0.8vw);
